@@ -9,12 +9,18 @@
         android:layout_height="80sp"
         android:orientation="horizontal"
         android:background="#fc8019">
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/baseline_menu_24"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bon Appétit"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="10dp"/>
@@ -23,7 +29,7 @@
             android:layout_height="40sp"
             android:background="@drawable/baseline_account_circle_24"
             android:layout_marginTop="30dp"
-            android:layout_marginLeft="180dp"/>
+            android:layout_marginLeft="148dp"/>
     </LinearLayout>
 
     <EditText
@@ -34,6 +40,10 @@
         android:textColorHint="#928e85"
         android:layout_margin="10dp"
         android:drawableRight="@drawable/baseline_search_24"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#dfe3ee"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -135,6 +145,10 @@
             </LinearLayout>
         </LinearLayout>
     </HorizontalScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#dfe3ee"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
